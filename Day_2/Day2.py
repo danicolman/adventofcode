@@ -25,12 +25,16 @@ for i in f:
             if num.split(" ")[1] not in ["blue"]:
                 possible = False
                 print("Game ", gid, " Exceeds red/green max")
-            break
+                break
+            else:
+                print(gid, ": ", num)
         elif int(num.split(" ")[0]) == 13:
             if num.split(" ")[1] not in ["blue", "green"]:
                 possible = False
                 print("Game ", gid, " Exceeds red max")
-            break
+                break
+            else:
+                print(gid, ": ", num)
         else:
             print(gid, ": ", num)
 
