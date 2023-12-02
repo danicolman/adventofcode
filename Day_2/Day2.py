@@ -1,9 +1,5 @@
 f = open("input.txt", "r")
 
-rlim = 12
-glim = 13
-blim = 14
-
 possible_games = []
 impossible_games = []
 possible_total = 0
